@@ -1,0 +1,166 @@
+html {
+    font-family: roboto;
+}
+
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex: auto;
+}
+
+.content-1, .content-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-1-center {
+    display: flex;
+}
+
+.content-1 {
+    display: flex;
+}
+
+.awesome-image {
+    width: 50%;
+    flex: 1 1 50%;
+}
+
+.awesome-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.awesome-content {
+    width: 50%;
+    flex: 1 1 50%;
+    padding: 0 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.awesome-content button {
+    width: 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: none;
+    border:0px;
+}
+
+.null {
+    flex: 0 1 300px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex: 1 1 50%;
+}
+
+.awesome-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.not-null {
+    flex: 1 1 50%;
+    min-width: 640px;
+}
+
+.content-1 .not-null {
+    min-width: 500px;
+}
+
+.content-1 .null {
+    flex: 0 1 400px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 5px;
+    margin-left: 10px;
+}
+
+.content-1 {
+    background-color: #1F2937;
+}
+
+.content-2 {
+    text-align: center;
+    display: flex;
+}
+
+.content-2 .not-null {
+    min-width: 500px;
+}
+
+.content-2 .null {
+    flex: 0 1 400px;
+}
+
+.content-2-images{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.content-2 .img-container {
+    width:96px;
+    height: 96px;
+ 
+}
+
+.content-2 img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid;
+    border-color: #3882F6;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.content-3 {
+    background-color: #E5E7EB;
+}
+
+.content-4 {
+}
+
+.blue-box {
+    background-color: #3882F6;
+}
