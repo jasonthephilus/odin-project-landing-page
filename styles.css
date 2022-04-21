@@ -18,6 +18,8 @@ body, p {
     align-items: center;
     padding: 10px;
     flex: auto;
+
+    flex-wrap: wrap;
 }
 
 .content-1, .content-2 {
@@ -31,27 +33,30 @@ body, p {
 
 .content-1 {
     display: flex;
+
 }
 
 .awesome-image {
     width: 50%;
-    flex: 1 1 50%;
+    flex: 0 0 auto;
+    min-width: 320px
 }
 
 .awesome-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+
 }
 
 .awesome-content {
     width: 50%;
-    flex: 1 1 50%;
-    padding: 0 10px;
+    flex: 0 1 auto;
     display: flex;
     gap: 15px;
     flex-direction: column;
     justify-content:flex-start;
+    min-width: 320px
 }
 
 .awesome-content button {
@@ -81,12 +86,11 @@ body, p {
 
 .not-null {
     flex: 1 1 50%;
-    min-width: 720px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.content-1 .not-null {
-    min-width: 640px;
-}
+
 
 .content-1 .null {
     flex: 0 1 400px;
@@ -156,6 +160,7 @@ body, p {
 
 .content-3 {
     background-color: #E5E7EB;
+
 }
 
 .quote p{
@@ -216,4 +221,5 @@ body, p {
     text-align: center;
     color: #F9FAF8;
     padding: 36px;
+
 }
